@@ -1,0 +1,335 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  /* width: 1000px; */
+
+}
+/* NAV BAR STARTS FRON HERE */
+.nav{
+  display: flex;
+  position: sticky;
+  z-index: 3;
+  top: 0px;
+  background-color: white;
+}
+.nav .dropdown{
+  display: flex;
+  height: 50px;
+  padding-top: 10px;
+  width: 600px;
+  
+}
+.dropbtn select{
+      border: none;
+}
+.dropdown .dropbtn{
+  bottom: 25px;
+  position: relative;
+  width: 200px;
+  border: none;
+  height: 100px;
+  color: black;
+  background-color: transparent;
+}
+.dropdown .dropbtn:hover{
+  background-color: rgb(4, 170, 109);
+  color: white;
+  border-radius: unset;
+}
+.btn-logo{
+  position: absolute;
+  right: 20px;
+  top: 5px;
+  display: flex;
+  height: 50px;
+  margin: 10px;
+  padding: 10px;
+
+}
+.btn-logo .btn{
+  margin: 10px;
+  width: 140px;
+  position: relative;
+  bottom: 10px;
+  border-radius: 20px;
+  border: none;
+}
+.btn-logo .btn1{
+  background-color: rgb(255, 192, 199);
+color: black;
+
+}
+.btn-logo .btn2{
+  background-color: rgb(255, 255, 255);
+color: black;
+}
+.btn-logo .btn3{
+  background-color: rgb(4, 170, 109);
+color: white;
+
+}
+
+.dropdown-content {
+display: none;
+width: 1340px;
+/* width: 660px; */
+height: 550px;
+left: 10px;
+border: 1px solid;
+position: absolute;
+top: 75px;
+background-color: rgb(40, 42, 53);
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+z-index: 1;
+}
+
+.dropdown-content a {
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+
+.dropdown-content a:hover {
+background-color: rgb(4, 170, 109);
+}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
+.box {
+/* border: 1px solid red; */
+float: left;
+}
+.box a {
+color: white;
+}
+/* nav bar ends here */
+/* just for try */
+button {
+  width: 130px;
+  height: 40px;
+  border-radius: 30px;
+  background-color: rgb(4, 170, 109);
+  color: cornsilk;
+  border: none;
+  font-size: 17px;
+}
+
+/*  2. main container and button area starts from here */
+
+.left a {
+  text-decoration: none;
+}
+button:hover {
+  background-color: rgb(55, 139, 109);
+}
+
+
+/* just FOR TRY CONTAINER */
+.container{
+  background-color: rgb(40,42,53);
+  width: auto;
+  height: auto;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  padding: 50px;
+}
+.right{
+  border-radius: 10px;
+  background-color: rgb(231,233,235);
+  padding: 50px;
+  height: 280px;
+  margin: 50px;
+}
+.right button a {
+  text-decoration: none;
+  color: white;
+}
+.right h1,.right .smallbox,.right .right-btn{
+  position: relative;
+  bottom: 50px;
+}
+.left{
+  width: auto;
+  padding-right: 150px;
+  height: auto;
+  color: white;
+  
+}
+.left h1  {
+  font-size: 70px;
+  text-align: center;
+}
+
+.left-btn {
+display: flex;
+align-items: center;
+margin: 20px auto;
+justify-content: center;
+border: none;
+width: 250px;
+}
+.bt2 {
+background-color: rgb(255, 240, 128);
+color: black;
+}
+.bt3 {
+background-color: rgb(255, 255, 255);
+color: black;
+}
+.smallbox {
+background-color: rgb(255,255,255);
+display: flex;
+width: 420px;
+height: 200px;
+align-content: center;
+margin: 10px auto;
+padding: 20px;
+background-color: white;
+}
+.empty {
+background-color: rgb(4, 170, 109);
+height: 240px;
+width: 5px;
+position: relative;
+right:230px;
+bottom: 20px;
+}
+
+/* JUS FOR TRY CONTAINEER */
+/* 3. Css area starts from here */
+/* styling css box  */
+.css {
+  background-color: rgb(255, 244, 163);
+  width: auto;
+  height: 500px;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  padding: 80px;
+}
+.css .left h1 {
+  color: black;
+  display: flex;
+  position: relative;
+  top: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.css p {
+  color: black;
+}
+.css .bt2 {
+  background-color: black;
+  color: white;
+}
+.css .empty {
+  background-color: rgb(4, 170, 109);
+  height: 240px;
+  width: 5px;
+  position: relative;
+  right:210px;
+  bottom: 20px;
+}
+.css .right {
+  border-radius: 10px;
+  background-color: rgb(231,233,235);
+  padding: 50px;
+  height: 290px;
+  margin: 50px;
+}
+/*4. footer section starts from here */
+.footer {
+  background-color: rgb(40, 42, 53);
+  position: relative;
+  bottom: 110px;
+  padding: 40px;
+  height: 300px;
+}
+.about {
+  float: right;
+  color: white;
+}
+.footer .footer-btn {
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+}
+.footer p {
+  color: white;
+  position: relative;
+  
+  width: auto;
+  top: 50px;
+  margin: auto;
+  padding: 20px;
+}
+.footer .shop {
+  color: white;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  top: 100px;
+  margin: auto;
+  width: 500px;
+  
+}
+@media only screen and (max-width:1215px){
+  .btn-logo img{
+    display: none;
+  }
+}
+@media only screen and (max-width:1150px){
+  .btn-logo #btn2{
+    display: none;
+  }
+  .btn-logo #btn1,.btn-logo #btn3{
+    width: 80px;
+  }
+  .container,.css{
+    display: block;
+    height: 850px;
+  }
+  .css p{
+    text-align: center;
+  }
+  .right, .css .right{
+    width: 340px;
+    margin:auto;
+    height: 300px;
+  }
+  .left,.css .left{
+    padding: 20px;
+    margin: auto;
+    position: relative;
+    bottom: 90px;
+    width: 400px;
+    height: 300px;
+  }
+  .smallbox{
+    width: 300px;
+  }
+  .footer .shop{
+    width: 200px;
+  }
+}
+@media only screen and (max-width:875px){
+          .dropbtn{
+            display: none;
+          }      
+          .footer{
+          height: 400px;
+          }
+          .about{
+            margin: auto;
+            padding-top: 40px;
+          }
+}
+
+
+
+

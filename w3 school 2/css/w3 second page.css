@@ -1,0 +1,265 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Segoe UI", Arial, sans-serif;
+   
+}
+/* NAV BAR STARTS  */
+.nav {
+  display: flex;
+}
+.nav .dropdown {
+  display: flex;
+  height: 50px;
+  padding-top: 10px;
+  width: 600px;
+}
+.dropbtn select {
+  border: none;
+}
+.dropdown .dropbtn {
+  bottom: 10px;
+  position: relative;
+  width: 200px;
+  border: none;
+  height: 70px;
+  color: black;
+  background-color: transparent;
+  font-weight: bold;
+  font-size: 20px;
+}
+.dropdown .dropbtn1 {
+  display: none;
+}
+.dropdown .dropbtn:hover {
+  background-color: rgb(4, 170, 109);
+  color: white;
+  border-radius: unset;
+}
+.btn-logo {
+  position: absolute;
+  right: 20px;
+  top: 5px;
+  display: flex;
+  height: 50px;
+  margin: 10px;
+  padding: 10px;
+}
+.btn-logo .btn {
+  margin: 10px;
+  width: 140px;
+  position: relative;
+  bottom: 10px;
+  border-radius: 20px;
+  border: none;
+  font-size: 16px;
+}
+.btn-logo .btn1 {
+  background-color: rgb(255, 192, 199);
+  color: black;
+}
+.btn-logo .btn2 {
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+.btn-logo .btn3 {
+  background-color: rgb(4, 170, 109);
+  color: white;
+}
+/* MENU BAR STARTS FROM HERE */
+.menu {
+  /* border: 1px solid red; */
+  display: flex;
+  height: 40px;
+  background-color: rgb(40, 42, 53);
+  color: white;
+  font-size: 17px;
+  position: sticky;
+  top: 0px;
+  z-index: 3;
+}
+.menu .subject {
+  margin: auto;
+  padding: 10px;
+}
+.main-content {
+  display: flex;
+}
+.menu .subject:hover {
+  background-color: rgb(4, 170, 109);
+}
+.left {
+  border: 0.3px solid lightgray;
+  height: auto;
+  width: 300px;
+  background-color: rgb(231, 233, 235);
+  height: 300px;
+  white-space: nowrap;
+  overflow-y: scroll;
+  position: sticky;
+  top: 0px;
+  z-index: 100;
+  top: 40px;
+}
+.left h3 {
+  padding-left: 25px;
+  margin: 10px;
+}
+.left dd {
+  padding: 5px 35px 6px;
+  width: auto;
+}
+.left h3:hover,
+.left dd:hover {
+  background-color: rgb(4, 170, 109);
+  color: #d9eee1;
+}
+.center {
+  border: 0.3px solid lightgray;
+  height: auto;
+  width: 100%;
+}
+.right {
+  border: 0.3px solid black;
+  height: auto;
+  width: 300px;
+}
+.center-h1 {
+  padding: 20px;
+  margin-top: 70px;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+}
+.center-btn1,
+.center-btn2 {
+  height: 40px;
+  width: 120px;
+  background-color: rgb(4, 170, 109);
+  border: none;
+  font-size: 17px;
+
+  border-radius: 5px;
+  color: white;
+}
+.center-btn1 {
+  margin-left: 20px;
+}
+.center-btn2 {
+  float: right;
+  margin-right: 20px;
+}
+.center2 {
+  background-color: #d9eee1;
+  width: 100%;
+  padding-bottom: 10px;
+}
+.center2 p {
+  padding: 5px;
+  margin: 10px;
+}
+.center2-btn1,
+.center2-btn2 {
+  margin: 20px;
+  display: block;
+  width: 250px;
+  padding: 5px;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  font-size: 17px;
+}
+.center2-btn1 {
+  background-color: rgb(4, 170, 109);
+  color: white;
+}
+.center2-btn2 {
+  color: white;
+  background-color: rgb(40, 42, 53);
+}
+.center3 {
+  border: 0.3px solid lightgray;
+  padding: 20px;
+}
+.center3 h1 {
+  padding: 10px;
+  font-weight: 500;
+}
+.center3 p {
+  padding: 10px;
+}
+.center3-btn {
+  margin: 20px 30px;
+}
+.center3-btn1 {
+  height: 70px;
+  width: 250px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 20px;
+}
+.center3-btn1:hover {
+  background-color: rgb(40, 42, 53);
+  color: #d9eee1;
+}
+.menu .bar {
+  display: none;
+}
+@media only screen and (max-width: 1167px) {
+  .btn-logo #btn1,
+  .btn-logo #btn2 {
+    display: none;
+    background-color: red;
+  }
+  .left,
+  .right {
+    display: none;
+  }
+}
+@media only screen and (max-width: 847px) {
+  .dropdown #exercise,
+  .dropdown #video {
+    display: none;
+  }
+  .menu #menu-sub2 {
+    display: none;
+  }
+}
+@media only screen and (max-width: 617px) {
+  .dropdown #reference {
+    display: none;
+  }
+  .menu #menu-sub1 {
+    display: none;
+  }
+  .menu img {
+    display: none;
+  }
+  .menu .bar {
+    display: block;
+  }
+}
+@media only screen and (max-width: 434px) {
+  .dropdown #totorial {
+    display: none;
+  }
+  .dropdown .dropbtn1 {
+    display: block;
+    bottom: 10px;
+    position: relative;
+    width: 200px;
+    border: none;
+    height: 70px;
+    color: black;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .dropdown .dropbtn1:hover {
+    background-color: rgb(4, 170, 109);
+    color: white;
+    border-radius: unset;
+  }
+}
